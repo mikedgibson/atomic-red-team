@@ -33,4 +33,3 @@ atomic_tests:
     command: |
       sc config SNMPTRAP binPath= "C:\windows\system32\WindowsPowerShell\v1.0\powershell.exe -noexit -c \"write-host 'T1031 Test'\""
       sc start SNMPTRAP
-      sc config SNMPTRAP binPath= "C:\WINDOWS\system32\snmptrap.exe"
